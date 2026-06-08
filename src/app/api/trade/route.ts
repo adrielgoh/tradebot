@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { NextResponse } from "next/server";
 import { getBotConfig, getTradeLogs } from "@/lib/firestore";
 import { getAccount, getPositions, executeOrder, updateSimulationPrices, isAlpacaConfigured } from "@/lib/alpaca";
